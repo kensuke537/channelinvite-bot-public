@@ -104,6 +104,6 @@ function postInviteResultToUser(masa) {
    };
    UrlFetchApp.fetch(postUrl,params);
   } catch (error) {
-    Logger.log("エラーが発生しました: " + error.toString());
+    Logger.log("エラーが発生しました : " + error.toString());
   }
 }
